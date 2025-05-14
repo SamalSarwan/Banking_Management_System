@@ -1,86 +1,68 @@
-# PassVault
+# Banking Management System
 
-**PassVault** is a secure and user-friendly password manager designed to help users store and manage their passwords efficiently. Built with modern web technologies, PassVault ensures that your credentials are kept safe and easily accessible.
+**Banking Management System** is a Java-based application designed to simulate core banking functions such as customer account management, deposit/withdrawal operations, and transaction tracking. This console-based system provides a simplified view of how basic banking software works internally.
 
 ## Features
 
-- Secure password storage  
-- User authentication and authorization  
-- Responsive and intuitive user interface  
-- Integration with modern frontend frameworks  
-- Backend API for managing password entries  
+- Customer account creation
+- Deposit and withdrawal functionality
+- Balance inquiry
+- Loan management (if implemented)
+- Secure and structured flow for banking operations
 
 ## Technologies Used
 
-- **Frontend**: JavaScript, HTML, CSS  
-- **Backend**: Node.js  
-- **Build Tool**: Vite  
-- **Styling**: Tailwind CSS  
-- **Linting**: ESLint  
+- **Programming Language**: Java
+- **Database Connectivity**: JDBC (Java Database Connectivity)
+- **Database**: Oracle (or any JDBC-compatible RDBMS)
+- **IDE**: Compatible with IntelliJ IDEA, Eclipse, or any Java IDE
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14 or above)  
-- npm or yarn package manager  
+- Java Development Kit (JDK 8 or higher)
+- Oracle Database (or other RDBMS)
+- Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse)
 
 ### Installation
 
-Clone the repository:
+1. Clone the repository:
 
 ```
-git clone https://github.com/SamalSarwan/PassVault.git
+git clone https://github.com/SamalSarwan/Banking_Management_System.git
 ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```
-cd PassVault
+cd Banking_Management_System
 ```
 
-Install the dependencies:
+3. Open the project in your preferred Java IDE.
 
-```
-npm install
-# or
-yarn install
-```
+4. Configure JDBC connection in the code:
+   - Set the correct database URL, username, and password.
+   - Ensure the database schema is created with required tables.
 
-### Running the Application
-
-To start the development server:
-
-```
-npm run dev
-# or
-yarn dev
-```
-
-The application will be available at `http://localhost:3000` by default.
+5. Compile and run the project.
 
 ## Project Structure
 
 ```
-PassVault/
-├── backend/             # Backend API logic
-├── public/              # Static assets
-├── src/                 # Frontend source code
-├── index.html           # Main HTML file
-├── package.json         # Project metadata and scripts
-├── tailwind.config.js   # Tailwind CSS configuration
-├── vite.config.js       # Vite configuration
-└── eslint.config.js     # ESLint configuration
+Banking_Management_System/
+├── src/                 # Java source files
+│   ├── Customer.java
+│   ├── Account.java
+│   └── Main.java
+├── README.md
+└── database/            # (Optional) SQL scripts for setting up the database
 ```
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-*Note: As the repository currently lacks detailed documentation, the above `README.md` is based on standard practices and the available project structure. For more specific information, please refer to the source code or contact the repository maintainer.*
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
